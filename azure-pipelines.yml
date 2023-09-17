@@ -81,7 +81,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : udacity-flask'
+            displayName: 'Deploy Azure Web App : helloflask'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
