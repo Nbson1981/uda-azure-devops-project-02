@@ -11,9 +11,9 @@ variables:
   azureServiceConnectionId: 'd1afad7c-5348-4c5c-8ac5-0ec95570db7e'
 
   # Web app name
-  webAppName: 'helloflasknbson'
+  webAppName: 'helloflask'
   # Environment name
-  environmentName: 'helloflasknbson'
+  environmentName: 'helloflask'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
