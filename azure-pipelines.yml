@@ -45,7 +45,7 @@ stages:
         echo $PATH
         python -m venv antenv
         source antenv/bin/activate
-        # make lint
+        make lint
       workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
     - task: ArchiveFiles@2
