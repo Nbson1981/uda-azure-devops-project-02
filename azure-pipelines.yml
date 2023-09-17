@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: 'd1afad7c-5348-4c5c-8ac5-0ec95570db7e'
 
   # Web app name
-  webAppName: 'helloflask'
+  webAppName: 'helloflask-app'
   # Environment name
   environmentName: 'helloflask'
 
