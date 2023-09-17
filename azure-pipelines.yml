@@ -13,7 +13,7 @@ variables:
   # Web app name
   webAppName: 'helloflask-app'
   # Environment name
-  environmentName: 'helloflask'
+  environmentName: 'helloflask-app'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -81,7 +81,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : helloflask'
+            displayName: 'Deploy Azure Web App : helloflask-app'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
