@@ -33,6 +33,7 @@ stages:
       displayName: 'Use Python $(pythonVersion)'    
 
     - script: |
+        sudo apt-get install zip
         export PATH=$HOME/.local/bin:$PATH
         python -m venv antenv
         source antenv/bin/activate
