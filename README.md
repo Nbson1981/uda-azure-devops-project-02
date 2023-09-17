@@ -7,7 +7,7 @@ In this project, you will build a Github repository from scratch and create a sc
 * [Trello Board](https://trello.com/b/yFThNF3M/udacity-azure-devops-project-02)
 * [Google Sheets Project Plan](https://docs.google.com/spreadsheets/d/1ojUWSqfUgFnG1rUK4QC0-39u_VIw-yWCK8sqdlwNIus/edit#gid=1348135932)
 
-## Pre requisites
+## Prerequisites
 
 * An Azure Account ( https://portal.azure.com/)
 * A GitHub Account ( http://github.com/)
