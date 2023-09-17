@@ -5,6 +5,7 @@
 
 trigger:
 - main
+
 variables:
   # Azure Resource Manager connection created during pipeline creation
   azureServiceConnectionId: 'd1afad7c-5348-4c5c-8ac5-0ec95570db7e'
@@ -42,6 +43,7 @@ stages:
       displayName: "Install requirements"
 
     - script: |
+        export PATH=$HOME/.local/bin:$PATH
         python -m venv antenv
         source antenv/bin/activate
         # make lint
