@@ -13,7 +13,7 @@ variables:
   # Web app name
   webAppName: 'udacity-flask'
   # Environment name
-  environmentName: 'udacity-flask'
+  environmentName: 'helloflask'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
