@@ -1,3 +1,7 @@
+[![Github Actions](https://github.com/Nbson1981/uda-azure-devops-project-02/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Nbson1981/uda-azure-devops-project-02/actions/workflows/pythonapp.yml)
+
+[![Azure Pipeline Status](https://dev.azure.com/nguyenbason0622/uda-azure-devops-project-02/_apis/build/status%2FNbson1981.uda-azure-devops-project-02?branchName=main)](https://dev.azure.com/nguyenbason0622/uda-azure-devops-project-02/_build/latest?definitionId=1&branchName=main)
+
 # Overview
 
 In this project, you will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. You'll use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, you'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
