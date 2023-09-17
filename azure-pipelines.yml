@@ -13,7 +13,7 @@ variables:
   # Web app name
   webAppName: 'helloflasknbson'
   # Environment name
-  environmentName: 'helloflask'
+  environmentName: 'helloflasknbson'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
